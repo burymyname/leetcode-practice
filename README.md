@@ -15,3 +15,5 @@ leetcode 刷题题解
 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | [firstMissingPositive.cc](./firstMissingPositive.cc) | 原地哈希 |
 | [K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | [reverseKGroup.cc](./reverseKGroup.cc) | 反转链表 |
 | [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/) | [spiralOrder.cc](./spiralOrder.cc) | 边界界定/按层输出 |
+| [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) | [topKFrequent.cc](./topKFrequent.cc) | 哈希+堆排序 |
+| [跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) | [jumpII.cc](./jumpII.cc) | 贪心算法 |
