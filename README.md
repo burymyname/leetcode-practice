@@ -27,3 +27,16 @@
 | [BM1 反转链表](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=295&tqId=23286&ru=%2Fpractice%2Fd8b6b4358f774294a89de2a6ac4d9337&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) | [ReverseList.cc](./ReverseList.cc) | 简单 | 链表基础，利用三指针反转链表，<br>可以用一个 fake head 解决头指针特殊处理问题 | |
 | [BM2 链表内指定区间反转](https://www.nowcoder.com/practice/b58434e200a648c589ca2063f1faf58c?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) | [reverseBetween.cc](./reverseBetween.cc) | 中等 | 新建一个 fake head，然后指针移动到指定区间，然后进行反转，<br>最后返回 fake_head->next | |
 | [BM3 链表中的节点每k个一组翻转](https://www.nowcoder.com/practice/b49c3dc907814e9bbfa8437c251b028e?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) | [reverseKGroup.cc](./reverseKGroup.cc) | 中等 | 反转的部分封装为函数，传入头尾，返回新头尾。<br>同样需要新建一个 fake head，然后按照 k 个划分需要反转的list头尾，<br>如果还没到 k 就发现 tail 为 NULL，则直接返回。<br>调用函数进行反转后，重新将反转后的 list 重新链接到 prev 和 next | |
+
+
+## leetcode 算法面试题汇总
+
+### 0.开始之前
+
+| 题目 | 源码 | 难度 | 思路 | 考察点 |
+| ---- | ---- | ---- | ---- | ---- |
+| [只出现一次的数字](https://leetcode.cn/problems/single-number/) | [singleNumber.cc](./singleNumber.cc) | 简单 | 用异或，遍历一遍即可 | 异或的性质 |
+| [多数元素](https://leetcode.cn/problems/majority-element/) | [majorityElement.cc](./majorityElement.cc) | 简单 | 把众数记为 +1，把其他数记为 -1 | Boyer-Moore 投票算法 |
+| [搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [searchMatrixII.cc](./searchMatrixII.cc) | 中等 | 从左下角/右上角开始遍历， 大于则向上/下，小于则向左/右 | 二分 |
+| [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | [merge.cc](./merge.cc) | 简单 | 从后开始遍历，最后只需要移动B数组的值 |  倒序归并 |
+| [鸡蛋掉落](https://leetcode.cn/problems/super-egg-drop/) | []() | 困难 | 
