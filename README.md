@@ -19,6 +19,8 @@
 | [跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) | [jumpII.cc](./jumpII.cc) | 贪心算法 |
 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | [dailyTemperatures.cc](./dailyTemperatures.cc) | 单调栈 |
 
+
+
 ## 牛客网面试必刷TOP101
 
 ### 01 链表
@@ -28,6 +30,13 @@
 | [BM2 链表内指定区间反转](https://www.nowcoder.com/practice/b58434e200a648c589ca2063f1faf58c?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) | [reverseBetween.cc](./reverseBetween.cc) | 中等 | 新建一个 fake head，然后指针移动到指定区间，然后进行反转，<br>最后返回 fake_head->next | |
 | [BM3 链表中的节点每k个一组翻转](https://www.nowcoder.com/practice/b49c3dc907814e9bbfa8437c251b028e?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) | [reverseKGroup.cc](./reverseKGroup.cc) | 中等 | 反转的部分封装为函数，传入头尾，返回新头尾。<br>同样需要新建一个 fake head，然后按照 k 个划分需要反转的list头尾，<br>如果还没到 k 就发现 tail 为 NULL，则直接返回。<br>调用函数进行反转后，重新将反转后的 list 重新链接到 prev 和 next | |
 
+## leetcode 每日一题
+
+工作后每天熟悉一下
+
+| 题目 | 难度 | 源码 |
+| ---- | ---- | ---- |
+| [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/description/) | 中等 | [maxAreaOfCake.cc](./maxAreaOfCake.cc)
 
 ## leetcode 算法面试题汇总
 
