@@ -34,9 +34,10 @@
 
 工作后每天熟悉一下
 
-| 题目 | 难度 | 源码 |
-| ---- | ---- | ---- |
-| [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/description/) | 中等 | [maxAreaOfCake.cc](./maxAreaOfCake.cc)
+| 题目 | 难度 | 源码 | 关键思路 |
+| ---- | ---- | ---- | ---- |
+| [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/description/) | 中等 | [maxAreaOfCake.cc](./maxAreaOfCake.cc) | 由于切法贯穿整个蛋糕，所以最大的宽度和长度一定会相交，只要找出最大长度宽度相乘即是最大面积 |
+|[2532. 过桥的时间](https://leetcode.cn/problems/time-to-cross-a-bridge/description/) | 困难 | [findCrossingTime.cc](./findCrossingTime.cc) | 用四个优先队列，分别存储四个状态的工人，然后模拟搬运过程 |
 
 ## leetcode 算法面试题汇总
 
