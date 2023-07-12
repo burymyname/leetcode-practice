@@ -40,6 +40,7 @@
 |[2532. 过桥的时间](https://leetcode.cn/problems/time-to-cross-a-bridge/description/) | 困难 | [findCrossingTime.cc](./findCrossingTime.cc) | 用四个优先队列，分别存储四个状态的工人，然后模拟搬运过程 |
 | [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/) | 中等 | [threeSumClosest.cc](./threeSumClosest.cc) | 排序+双指针 |
 | [1911. 最大子序列交替和](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/description/) | 中等 | [maxAlternatingSum.cc](./maxAlternatingSum.cc) | 动态规划，但是需要区分单数双数情况 |
+| [2544. 交替数字和](https://leetcode.cn/problems/alternating-digit-sum/description/) | 简单 | [alternateDigitSum.cc](./alternateDigitSum.cc) | 位数的奇偶性会决定和的正负，只需要观察到这一点，就能简化程序 |
 
 ## leetcode 算法面试题汇总
 
