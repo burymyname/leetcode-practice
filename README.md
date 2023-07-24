@@ -41,6 +41,16 @@
 | [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/) | 中等 | [threeSumClosest.cc](./threeSumClosest.cc) | 排序+双指针 |
 | [1911. 最大子序列交替和](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/description/) | 中等 | [maxAlternatingSum.cc](./maxAlternatingSum.cc) | 动态规划，但是需要区分单数双数情况 |
 | [2544. 交替数字和](https://leetcode.cn/problems/alternating-digit-sum/description/) | 简单 | [alternateDigitSum.cc](./alternateDigitSum.cc) | 位数的奇偶性会决定和的正负，只需要观察到这一点，就能简化程序 |
+| [931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/description/) | 中等 | [minFallingPathSum.cc](./minFallingPathSum.cc) | 动态规划，当前块的最小和为上一行的左中右三个块的最小和的最小值加上当前块的值，整个矩阵的最小和为最后一行的所有块的最小和的最小值 |
+| [979. 在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | 中等 | [distributeCoins.cc](./distributeCoins.cc) | 递归解决问题，将问题抽象简化，只要分析出子数的硬币数-节点数就是需要移动到父节点的硬币数，就可以递归解决 |
+
+## leetcode 剑指Offer 专项突破
+
+### 整数专题
+
+| 题目 | 源码 | 难度 | 思路 | 考察点 |
+| ---- | ---- | ---- | ---- | ---- |
+| []() | []() | 简单 | | 模拟计算 |
 
 ## leetcode 算法面试题汇总
 
@@ -59,8 +69,6 @@
 | ---- | ---- | ---- | ---- | ---- |
 | [接雨水](https://leetcode.cn/problems/trapping-rain-water/) | [trap.cc](./trap.cc) | 困难 | 首先用单调栈递减存放高度，如果遇到比栈顶更大的高度，则循环出栈，计算面积。<br> 首先出栈栈顶，高度为左右高度中最小的减去当前高度，宽度为左右索引的差。 | 单调栈 |
 | [接糖果](https://leetcode.cn/problems/candy/) | [candy.cc](./candy.cc) | 困难 | 贪心算法，首先从左遍历，按照从左到右递增的顺序进行计算，再从右到左计算，取两次的最大值 | 贪心算法 |
-| []() | []() | | | |
-
 
 
 常见技巧
