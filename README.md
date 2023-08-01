@@ -43,6 +43,7 @@
 | [2544. 交替数字和](https://leetcode.cn/problems/alternating-digit-sum/description/) | 简单 | [alternateDigitSum.cc](./alternateDigitSum.cc) | 位数的奇偶性会决定和的正负，只需要观察到这一点，就能简化程序 |
 | [931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/description/) | 中等 | [minFallingPathSum.cc](./minFallingPathSum.cc) | 动态规划，当前块的最小和为上一行的左中右三个块的最小和的最小值加上当前块的值，整个矩阵的最小和为最后一行的所有块的最小和的最小值 |
 | [979. 在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | 中等 | [distributeCoins.cc](./distributeCoins.cc) | 递归解决问题，将问题抽象简化，只要分析出子数的硬币数-节点数就是需要移动到父节点的硬币数，就可以递归解决 |
+| [143. 重排链表](https://leetcode.cn/problems/reorder-list/description/) | 中等 | [reorderList.cc](./reorderList.cc) | 快慢指针找中间节点，翻转后半链表，最后合并 |
 
 ## leetcode 剑指Offer 专项突破
 
