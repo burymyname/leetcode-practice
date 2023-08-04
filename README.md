@@ -44,6 +44,7 @@
 | [931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/description/) | 中等 | [minFallingPathSum.cc](./minFallingPathSum.cc) | 动态规划，当前块的最小和为上一行的左中右三个块的最小和的最小值加上当前块的值，整个矩阵的最小和为最后一行的所有块的最小和的最小值 |
 | [979. 在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | 中等 | [distributeCoins.cc](./distributeCoins.cc) | 递归解决问题，将问题抽象简化，只要分析出子数的硬币数-节点数就是需要移动到父节点的硬币数，就可以递归解决 |
 | [143. 重排链表](https://leetcode.cn/problems/reorder-list/description/) | 中等 | [reorderList.cc](./reorderList.cc) | 快慢指针找中间节点，翻转后半链表，最后合并 |
+| [980. 不同路径 III](https://leetcode.cn/problems/unique-paths-iii/description/) | 困难 | [uniquePathsIII.cc](./uniquePathsIII.cc) | 深度优先遍历，结束遍历的条件是当方格位置非法/方格不可走/到达终点，用剩余节点数量判断该路径是否满足所有方格都要走一遍的要求 |
 
 ## leetcode 剑指Offer 专项突破
 
@@ -52,6 +53,15 @@
 | 题目 | 源码 | 难度 | 思路 | 考察点 |
 | ---- | ---- | ---- | ---- | ---- |
 | []() | []() | 简单 | | 模拟计算 |
+
+### 数组专题
+
+| 题目 | 源码 | 难度 | 思路 | 考察点 |
+| ---- | ---- | ---- | ---- | ---- |
+| [LCR 008. 长度最小的子数组](https://leetcode.cn/problems/2VG8Kg/description/) | [minSubArrayLen.cc](./Offer119/minSubArrayLen.cc) | 中等 | - | 滑动窗口 |
+| [LCR 012. 寻找数组的中心下标](https://leetcode.cn/problems/tvdfij/description/) | [pivotIndex.cc](./Offer119/pivotIndex.cc) | 简单 | - | - |
+| []() | []() | - | - | - |
+
 
 ## leetcode 算法面试题汇总
 
